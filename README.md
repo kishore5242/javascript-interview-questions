@@ -1,26 +1,5 @@
 # JavaScript Interview Questions & Answers
 
-> Click :star:if you like the project and follow [@SudheerJonna](https://twitter.com/SudheerJonna) for more updates. Coding questions available [here](#coding-exercise). PDF and Epub versions available at [actions tab](https://github.com/sudheerj/JavaScript-Interview-Questions/actions).
-
----
-
-<p align="center">
-  <a href=https://zerotomastery.io/?utm_source=github&utm_medium=sponsor&utm_campaign=javascript-interview-questions>
-    <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo" width="100" height="50">
-  </a>
-  <p align="center">
-    <ol>
-    <li>Take this <a href=https://links.zerotomastery.io/jsp_sudheer>JavaScript Projects</a> course to go from a JS beginner to confidently building your own projects</li>
-    <li>Take this <a href=https://links.zerotomastery.io/mci_sudheer2>coding interview bootcamp</a> if you’re serious about getting hired and don’t have a CS degree</li>
-    <li>Take this <a href=https://links.zerotomastery.io/ajs_sudheer>Advanced JavaScript Course</a> to learn advanced JS concepts and become a top JS developer</li>
-    </ol>
-  </p>
-</p>
-
----
-
-**Note:** Please check [DataStructures and Algorithms](https://github.com/sudheerj/datastructures-algorithms) for DSA related questions or problems.
-
 ### Table of Contents
 
 | No. | Questions                                                                                                                                                     |
@@ -619,7 +598,7 @@
       })();
       ```
 
-      **[⬆ Back to Top](#table-of-contents)**
+      
 
 2. ### What is a prototype chain
 
@@ -629,7 +608,7 @@
 
    ![Screenshot](images/prototype_chain.png)
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 3. ### What is the difference between Call, Apply and Bind
 
@@ -689,7 +668,7 @@
 
    Bind creates a new function that will have `this` set to the first parameter passed to bind().
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 4. ### What is JSON and its common operations
 
@@ -707,7 +686,7 @@
    JSON.stringify(object);
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 5. ### What is the purpose of the array slice method
 
@@ -724,7 +703,7 @@
 
    **Note:** Slice method doesn't mutate the original array but it returns the subset as a new array.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 6. ### What is the purpose of the array splice method
 
@@ -744,7 +723,7 @@
 
    **Note:** Splice method modifies the original array and returns the deleted array.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 7. ### What is the difference between slice and splice
 
@@ -756,7 +735,7 @@
    | Returns the subset of original array         | Returns the deleted elements as array           |
    | Used to pick the elements from array         | Used to insert/delete elements to/from array |
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 8. ### How do you compare Object and Map
 
@@ -769,7 +748,7 @@
    5. An Object has a prototype, so there are default keys in an object that could collide with your keys if you're not careful. As of ES5 this can be bypassed by creating an object(which can be called a map) using `Object.create(null)`, but this practice is seldom done.
    6. A Map may perform better in scenarios involving frequent addition and removal of key pairs.
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 9. ### What is the difference between == and === operators
 
@@ -801,7 +780,7 @@
    {}=={} or {}==={} //false, refer different objects in memory
    ```
 
-   **[⬆ Back to Top](#table-of-contents)**
+   
 
 10. ### What are lambda expressions or arrow functions
 
@@ -814,7 +793,7 @@
     const arrowFunc3 = () => {} // no parameters
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 11. ### What is a first class function
 
@@ -827,7 +806,7 @@
     document.addEventListener("click", handler);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 12. ### What is a first order function
 
@@ -837,7 +816,7 @@
     const firstOrder = () => console.log("I am a first order function!");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 13. ### What is a higher order function
 
@@ -850,7 +829,7 @@
     higherOrder(firstOrderFunc);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 14. ### What is a unary function
 
@@ -862,7 +841,7 @@
     const unaryFunction = (a) => console.log(a + 10); // Add 10 to the given argument and display the value
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 15. ### What is the currying function
 
@@ -882,7 +861,7 @@
 
     Curried functions are great to improve **code reusability** and **functional composition**.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 16. ### What is a pure function
 
@@ -909,7 +888,7 @@
 
     Remember that Pure functions are important as they simplify unit testing without any side effects and no need for dependency injection. They also avoid tight coupling and make it harder to break your application by not having any side effects. These principles are coming together with the **Immutability** concept of ES6: giving preference to **const** over **let** usage.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 17. ### What is the purpose of the let keyword
 
@@ -926,7 +905,7 @@
     console.log(counter); // 30 (because the variable in if block won't exist here)
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 18. ### What is the difference between let and var
 
@@ -955,13 +934,13 @@
     userDetails("John");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 19. ### What is the reason to choose the name let as a keyword
 
     `let` is a mathematical statement that was adopted by early programming languages like **Scheme** and **Basic**. It has been borrowed from dozens of other languages that use `let` already as a traditional keyword as close to `var` as possible.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 20. ### How do you redeclare variables in a switch block without an error
 
@@ -996,7 +975,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 21. ### What is the Temporal Dead Zone
 
@@ -1013,7 +992,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 22. ### What is an IIFE (Immediately Invoked Function Expression)
 
@@ -1035,7 +1014,7 @@
     console.log(message); //Error: message is not defined
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 23. ### How do you decode or encode a URL in JavaScript?
 
@@ -1050,7 +1029,7 @@
     let decoded_uri = decodeURI(encoded_uri);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 24. ### What is memoization
 
@@ -1078,7 +1057,7 @@
     console.log(addition(20)); //output: 40 cached
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 25. ### What is Hoisting
 
@@ -1110,7 +1089,7 @@
 
     This hoisting makes functions to be safely used in code before they are declared.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 26. ### What are classes in ES6
 
@@ -1143,7 +1122,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 27. ### What are closures
 
@@ -1169,13 +1148,13 @@
 
     As per the above code, the inner function(i.e, greetingInfo) has access to the variables in the outer function scope(i.e, Welcome) even after the outer function has returned.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 28. ### What are modules
 
     Modules refer to small units of independent, reusable code and also act as the foundation of many JavaScript design patterns. Most of the JavaScript modules export an object literal, a function, or a constructor
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 29. ### Why do you need modules
 
@@ -1185,37 +1164,37 @@
     2. Reusability
     3. Namespacing
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 30. ### What is scope in javascript
 
     Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 31. ### What is a service worker
 
     A Service worker is basically a script (JavaScript file) that runs in the background, separate from a web page and provides features that don't need a web page or user interaction. Some of the major features of service workers are Rich offline experiences(offline first web application development), periodic background syncs, push notifications, intercept and handle network requests and programmatically managing a cache of responses.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 32. ### How do you manipulate DOM using a service worker
 
     Service worker can't access the DOM directly. But it can communicate with the pages it controls by responding to messages sent via the `postMessage` interface, and those pages can manipulate the DOM.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 33. ### How do you reuse information across service worker restarts
 
     The problem with service worker is that it gets terminated when not in use, and restarted when it's next needed, so you cannot rely on global state within a service worker's `onfetch` and `onmessage` handlers. In this case, service workers will have access to IndexedDB API in order to persist and reuse across restarts.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 34. ### What is IndexedDB
 
     IndexedDB is a low-level API for client-side storage of larger amounts of structured data, including files/blobs. This API uses indexes to enable high-performance searches of this data.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 35. ### What is web storage
 
@@ -1224,13 +1203,13 @@
     1. **Local storage:** It stores data for current origin with no expiration date.
     2. **Session storage:** It stores data for one session and the data is lost when the browser tab is closed.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 36. ### What is a post message
 
     Post message is a method that enables cross-origin communication between Window objects.(i.e, between a page and a pop-up that it spawned, or between a page and an iframe embedded within it). Generally, scripts on different pages are allowed to access each other if and only if the pages follow same-origin policy(i.e, pages share the same protocol, port number, and host).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 37. ### What is a Cookie
 
@@ -1243,7 +1222,7 @@
 
     ![Screenshot](images/cookie.png)
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 38. ### Why do you need a Cookie
 
@@ -1252,7 +1231,7 @@
     1. When a user visits a web page, the user profile can be stored in a cookie.
     2. Next time the user visits the page, the cookie remembers the user profile.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 39. ### What are the options in a cookie
 
@@ -1270,7 +1249,7 @@
     document.cookie = "username=John; path=/services";
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 40. ### How do you delete a cookie
 
@@ -1284,7 +1263,7 @@
 
     **Note:** You should define the cookie path option to ensure that you delete the right cookie. Some browsers doesn't allow to delete a cookie unless you specify a path parameter.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 41. ### What are the differences between cookie, local storage and session storage
 
@@ -1297,13 +1276,13 @@
     | SSL support                       | Supported                          | Not supported    | Not supported       |
     | Maximum data size                 | 4KB                                | 5 MB             | 5MB                 |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 42. ### What is the main difference between localStorage and sessionStorage
 
     LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time) whereas in sessionStorage data gets cleared when the page session ends.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 43. ### How do you access web storage
 
@@ -1315,7 +1294,7 @@
     localStorage.getItem("logo");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 44. ### What are the methods available on session storage
 
@@ -1335,7 +1314,7 @@
     sessionStorage.clear();
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 45. ### What is a storage event and its event handler
 
@@ -1362,13 +1341,13 @@
     };
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 46. ### Why do you need web storage
 
     Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 47. ### How do you check web storage browser support
 
@@ -1382,7 +1361,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 48. ### How do you check web workers browser support
 
@@ -1396,7 +1375,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 49. ### Give an example of a web worker
 
@@ -1447,7 +1426,7 @@
     w = undefined;
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 50. ### What are the restrictions of web workers on DOM
 
@@ -1457,7 +1436,7 @@
     2. Document object
     3. Parent object
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 51. ### What is a promise
 
@@ -1490,13 +1469,13 @@
 
     ![Screenshot](images/promises.png)
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 52. ### Why do you need a promise
 
     Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 53. ### What are the three states of promise
 
@@ -1506,7 +1485,7 @@
     2. **Fulfilled:** This state indicates that the specified operation was completed.
     3. **Rejected:** This state indicates that the operation did not complete. In this case an error value will be thrown.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 54. ### What is a callback function
 
@@ -1526,7 +1505,7 @@
     outerFunction(callbackFunction);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 55. ### Why do we need callbacks
 
@@ -1553,7 +1532,7 @@
 
     As observed from the output, javascript didn't wait for the response of the first function and the remaining code block got executed. So callbacks are used in a way to make sure that certain code doesn’t execute until the other code finishes execution.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 56. ### What is a callback hell
 
@@ -1571,13 +1550,13 @@
     });
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 57. ### What are server-sent events
 
     Server-sent events (SSE) is a server push technology enabling a browser to receive automatic updates from a server via HTTP connection without resorting to polling. These are a one way communications channel - events flow from server to client only. This has been used in Facebook/Twitter updates, stock price updates, news feeds etc.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 58. ### How do you receive server-sent event notifications
 
@@ -1592,7 +1571,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 59. ### How do you check browser support for server-sent events
 
@@ -1606,7 +1585,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 60. ### What are the events available for server sent events
 
@@ -1617,7 +1596,7 @@
     | onmessage | This event is used when a message is received |
     | onerror | It happens when an error occurs|
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 61. ### What are the main rules of promise
 
@@ -1628,7 +1607,7 @@
     3. A fulfilled or rejected promise is settled and it must not transition into any other state.
     4. Once a promise is settled, the value must not change.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 62. ### What is callback in callback
 
@@ -1649,7 +1628,7 @@
     });
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 63. ### What is promise chaining
 
@@ -1680,7 +1659,7 @@
     3. After that the value passed to the next `.then` handler by logging the result(2) and return a promise with result \* 3.
     4. Finally the value passed to the last `.then` handler by logging the result(6) and return a promise with result \* 4.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 64. ### What is promise.all
 
@@ -1692,7 +1671,7 @@
 
     **Note:** Remember that the order of the promises(output the result) is maintained as per input order.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 65. ### What is the purpose of the race method in promise
 
@@ -1711,19 +1690,19 @@
     });
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 66. ### What is a strict mode in javascript
 
     Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a “strict” operating context. This way it prevents certain actions from being taken and throws more exceptions. The literal expression `"use strict";` instructs the browser to use the javascript code in the Strict mode.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 67. ### Why do you need strict mode
 
     Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" into real errors. For example, it eliminates accidentally creating a global variable by throwing an error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 68. ### How do you declare strict mode
 
@@ -1747,7 +1726,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 69. ### What is the purpose of double exclamation
 
@@ -1768,7 +1747,7 @@
 
     **Note:** The expression !! is not an operator, but it is just twice of ! operator.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 70. ### What is the purpose of the delete operator
 
@@ -1781,7 +1760,7 @@
     console.log(user); // {firstName: "John", lastName:"Doe"}
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 71. ### What is typeof operator
 
@@ -1793,7 +1772,7 @@
     typeof [1, 2, 3]; // Returns "object" because all arrays are also objects
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 72. ### What is undefined property
 
@@ -1810,7 +1789,7 @@
     user = undefined;
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 73. ### What is null value
 
@@ -1822,7 +1801,7 @@
     console.log(typeof user); //object
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 74. ### What is the difference between null and undefined
 
@@ -1836,7 +1815,7 @@
     | Indicates the absence of a value for a variable                                                 | Indicates absence of variable itself                                                                    |
     | Converted to zero (0) while performing primitive operations                                     | Converted to NaN while performing primitive operations                                                  |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 75. ### What is eval
 
@@ -1846,7 +1825,7 @@
     console.log(eval("1 + 2")); //  3
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 76. ### What is the difference between window and document
 
@@ -1858,7 +1837,7 @@
     | By default window object is available implicitly in the page                  | You can access it via window.document or document.                                            |
     | It has methods like alert(), confirm() and properties like document, location | It provides methods like getElementById, getElementsByTagName, createElement etc              |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 77. ### How do you access history in javascript
 
@@ -1875,7 +1854,7 @@
 
     **Note:** You can also access history without window prefix.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 78. ### How do you detect caps lock key turned on or not
 
@@ -1901,7 +1880,7 @@
     </script>
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 79. ### What is isNaN
 
@@ -1912,7 +1891,7 @@
     isNaN("100"); //false
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 80. ### What are the differences between undeclared and undefined variables
 
@@ -1923,7 +1902,7 @@
     | These variables do not exist in a program and are not declared                              | These variables declared in the program but have not assigned any value                |
     | If you try to read the value of an undeclared variable, then a runtime error is encountered | If you try to read the value of an undefined variable, an undefined value is returned. |
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 81. ### What are global variables
 
@@ -1933,13 +1912,13 @@
     msg = "Hello"; // var is missing, it becomes global variable
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 82. ### What are the problems with global variables
 
     The problem with global variables is the conflict of variable names of local and global scope. It is also difficult to debug and test the code that relies on global variables.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 83. ### What is NaN property
 
@@ -1950,7 +1929,7 @@
     parseInt("Hello");
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 84. ### What is the purpose of isFinite function
 
@@ -1964,7 +1943,7 @@
     isFinite(100); // true
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 85. ### What is an event flow
 
@@ -1974,19 +1953,19 @@
     1. Top to Bottom(Event Capturing)
     2. Bottom to Top (Event Bubbling)
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 86. ### What is event bubbling
 
     Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 87. ### What is event capturing
 
     Event capturing is a type of event propagation where the event is first captured by the outermost element, and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the innermost DOM element.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 88. ### How do you submit a form using JavaScript
 
@@ -1998,7 +1977,7 @@
     }
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 89. ### How do you find operating system details
 
@@ -2008,13 +1987,13 @@
     console.log(navigator.platform);
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 90. ### What is the difference between document load and DOMContentLoaded events
 
     The `DOMContentLoaded` event is fired when the initial HTML document has been completely loaded and parsed, without waiting for assets(stylesheets, images, and subframes) to finish loading. Whereas The load event is fired when the whole page has loaded, including all dependent resources(stylesheets, images).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 91. ### What is the difference between native, host and user objects
 
@@ -2022,7 +2001,7 @@
     `Host objects` are objects provided by the browser or runtime environment (Node). For example, window, XmlHttpRequest, DOM nodes etc are considered as host objects.
     `User objects` are objects defined in the javascript code. For example, User objects created for profile information.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 92. ### What are the tools or techniques used for debugging JavaScript code
 
@@ -2032,7 +2011,7 @@
     2. debugger statement
     3. Good old console.log statement
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 93. ### What are the pros and cons of promises over callbacks
 
@@ -2050,7 +2029,7 @@
     1. It makes little complex code
     2. You need to load a polyfill if ES6 is not supported
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 94. ### What is the difference between an attribute and a property
 
@@ -2075,13 +2054,13 @@
     console.log(input.value); // Good evening
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 95. ### What is same-origin policy
 
     The same-origin policy is a policy that prevents JavaScript from making requests across domain boundaries. An origin is defined as a combination of URI scheme, hostname, and port number. If you enable this policy then it prevents a malicious script on one page from obtaining access to sensitive data on another web page using Document Object Model(DOM).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 96. ### What is the purpose of void 0
 
@@ -2094,25 +2073,25 @@
     </a>
     ```
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 97. ### Is JavaScript a compiled or interpreted language
 
     JavaScript is an interpreted language, not a compiled language. An interpreter in the browser reads over the JavaScript code, interprets each line, and runs it. Nowadays modern browsers use a technology known as Just-In-Time (JIT) compilation, which compiles JavaScript to executable bytecode just as it is about to run.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 98. ### Is JavaScript a case-sensitive language
 
     Yes, JavaScript is a case sensitive language. The language keywords, variables, function & object names, and any other identifiers must always be typed with a consistent capitalization of letters.
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 99. ### Is there any relation between Java and JavaScript
 
     No, they are entirely two different programming languages and have nothing to do with each other. But both of them are Object Oriented Programming languages and like many other languages, they follow similar syntax for basic features(if, else, for, switch, break, continue etc).
 
-    **[⬆ Back to Top](#table-of-contents)**
+    
 
 100. ### What are events
 
@@ -2140,13 +2119,13 @@
      </html>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 101. ### Who created javascript
 
      JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. Initially it was developed under the name `Mocha`, but later the language was officially called `LiveScript` when it first shipped in beta releases of Netscape.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 102. ### What is the use of preventDefault method
 
@@ -2162,7 +2141,7 @@
 
      **Note:** Remember that not all events are cancelable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 103. ### What is the use of stopPropagation method
 
@@ -2186,7 +2165,7 @@
      </script>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 104. ### What are the steps involved in return false usage
 
@@ -2196,7 +2175,7 @@
      2. It prevents the event from propagating the DOM
      3. Stops callback execution and returns immediately when called.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 105. ### What is BOM
 
@@ -2204,7 +2183,7 @@
 
      ![Screenshot](images/bom.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 106. ### What is the use of setTimeout
 
@@ -2216,7 +2195,7 @@
      }, 2000);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 107. ### What is the use of setInterval
 
@@ -2228,13 +2207,13 @@
      }, 2000);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 108. ### Why is JavaScript treated as Single threaded
 
      JavaScript is a single-threaded language. Because the language specification does not allow the programmer to write code so that the interpreter can run parts of it in parallel in multiple threads or processes. Whereas languages like java, go, C++ can make multi-threaded and multi-process programs.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 109. ### What is an event delegation
 
@@ -2256,19 +2235,19 @@
      );
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 110. ### What is ECMAScript
 
      ECMAScript is the scripting language that forms the basis of JavaScript. ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications. The first edition of ECMAScript was released in 1997.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 111. ### What is JSON
 
      JSON (JavaScript Object Notation) is a lightweight format that is used for data interchanging. It is based on a subset of JavaScript language in the way objects are built in JavaScript.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 112. ### What are the syntax rules of JSON
 
@@ -2279,7 +2258,7 @@
      3. Curly braces hold objects
      4. Square brackets hold arrays
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 113. ### What is the purpose JSON stringify
 
@@ -2291,7 +2270,7 @@
      console.log(userString); //"{"name":"John","age":31}"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 114. ### How do you parse JSON string
 
@@ -2303,19 +2282,19 @@
      console.log(userJSON); // {name: "John", age: 31}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 115. ### Why do you need JSON
 
      When exchanging data between a browser and a server, the data can only be text. Since JSON is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 116. ### What are PWAs
 
      Progressive web applications (PWAs) are a type of mobile app delivered through the web, built using common web technologies including HTML, CSS and JavaScript. These PWAs are deployed to servers, accessible through URLs, and indexed by search engines.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 117. ### What is the purpose of clearTimeout method
 
@@ -2340,7 +2319,7 @@
      </script>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 118. ### What is the purpose of clearInterval method
 
@@ -2365,7 +2344,7 @@
      </script>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 119. ### How do you redirect new page in javascript
 
@@ -2377,7 +2356,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 120. ### How do you check whether a string contains a substring
 
@@ -2407,7 +2386,7 @@
      regex.test(mainString);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 121. ### How do you validate an email in javascript
 
@@ -2421,7 +2400,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
      The above regular expression accepts unicode characters.
 
@@ -2433,7 +2412,7 @@
      console.log("location.href", window.location.href); // Returns full URL
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 123. ### What are the various url properties of location object
 
@@ -2448,7 +2427,7 @@
      7. search - The query portion of the URL
      8. hash - The anchor portion of the URL
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 124. ### How do get query string values in javascript
 
@@ -2459,7 +2438,7 @@
      const clientCode = urlParams.get("clientCode");
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 125. ### How do you check if a key exists in an object
 
@@ -2494,7 +2473,7 @@
      console.log(user.nickName !== undefined); // false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 126. ### How do you loop through or enumerate javascript object
 
@@ -2514,7 +2493,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 127. ### How do you test for an empty object
 
@@ -2546,7 +2525,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 128. ### What is an arguments object
 
@@ -2570,7 +2549,7 @@
      var argsArray = Array.prototype.slice.call(arguments);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 129. ### How do you make first letter of the string in an uppercase
 
@@ -2582,7 +2561,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 130. ### What are the pros and cons of for loop
 
@@ -2599,7 +2578,7 @@
      2. Imperative
      3. You might face one-by-off errors
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 131. ### How do you display the current date in javascript
 
@@ -2615,7 +2594,7 @@
      document.write(today);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 132. ### How do you compare two date objects
 
@@ -2628,7 +2607,7 @@
      console.log(d1 === d2); // False
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 133. ### How do you check if a string starts with another string
 
@@ -2639,7 +2618,7 @@
      "Good morning".startsWith("morning"); // false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 134. ### How do you trim a string in javascript
 
@@ -2663,7 +2642,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 135. ### How do you add a key value pair in javascript
 
@@ -2688,7 +2667,7 @@
      obj["key3"] = "value3";
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 136. ### Is the !-- notation represents a special operator
 
@@ -2699,7 +2678,7 @@
 
      At first, the value decremented by one and then tested to see if it is equal to zero or not for determining the truthy/falsy value.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 137. ### How do you assign default values to variables
 
@@ -2711,7 +2690,7 @@
 
      As per the above expression, variable 'a 'will get the value of 'c' only if 'b' is falsy (if is null, false, undefined, 0, empty string, or NaN), otherwise 'a' will get the value of 'b'.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 138. ### How do you define multiline strings
 
@@ -2726,13 +2705,13 @@
 
      But if you have a space after the '\\' character, the code will look exactly the same, but it will raise a SyntaxError.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 139. ### What is an app shell model
 
      An application shell (or app shell) architecture is one way to build a Progressive Web App that reliably and instantly loads on your users' screens, similar to what you see in native applications. It is useful for getting some initial HTML to the screen fast without a network.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 140. ### Can we define properties for functions
 
@@ -2750,7 +2729,7 @@
      };
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 141. ### What is the way to find the number of parameters expected by a function
 
@@ -2763,13 +2742,13 @@
      sum.length; // 4 is the number of parameters expected.
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 142. ### What is a polyfill
 
      A polyfill is a piece of JS code used to provide modern functionality on older browsers that do not natively support it. For example, Silverlight plugin polyfill can be used to mimic the functionality of an HTML Canvas element on Microsoft Internet Explorer 7.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 143. ### What are break and continue statements
 
@@ -2795,7 +2774,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 144. ### What are js labels
 
@@ -2819,7 +2798,7 @@
      //   "i = 2, j = 1"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 145. ### What are the benefits of keeping declarations at the top
 
@@ -2830,7 +2809,7 @@
      3. Easy to avoid unwanted global variables
      4. It reduces the possibility of unwanted re-declarations
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 146. ### What are the benefits of initializing variables
 
@@ -2840,7 +2819,7 @@
      2. It provides a single place to initialize variables
      3. Avoid undefined values in the code
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 147. ### What are the recommendations to create new object
 
@@ -2866,7 +2845,7 @@
      var v7 = function () {};
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 148. ### How do you define JSON arrays
 
@@ -2880,7 +2859,7 @@
      ]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 149. ### How do you generate random integers
 
@@ -2893,7 +2872,7 @@
 
      **Note:** Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 150. ### Can you write a random integers function to print integers with in a range
 
@@ -2907,25 +2886,25 @@
      randomInteger(1, 1000); // returns a random integer from 1 to 1000
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 151. ### What is tree shaking
 
      Tree shaking is a form of dead code elimination. It means that unused modules will not be included in the bundle during the build process and for that it relies on the static structure of ES2015 module syntax,( i.e. import and export). Initially this has been popularized by the ES2015 module bundler `rollup`.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 152. ### What is the need of tree shaking
 
      Tree Shaking can significantly reduce the code size in any application. i.e, The less code we send over the wire the more performant the application will be. For example, if we just want to create a “Hello World” Application using SPA frameworks then it will take around a few MBs, but by tree shaking it can bring down the size to just a few hundred KBs. Tree shaking is implemented in Rollup and Webpack bundlers.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 153. ### Is it recommended to use eval
 
      No, it allows arbitrary code to be run which causes a security problem. As we know that the eval() function is used to run text as code. In most of the cases, it should not be necessary to use it.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 154. ### What is a Regular Expression
 
@@ -2941,7 +2920,7 @@
      /John/i;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 155. ### What are the string methods available in Regular expression
 
@@ -2960,7 +2939,7 @@
      var n = msg.replace(/John/i, "Buttler"); // Hello Buttler
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 156. ### What are modifiers in regular expression
 
@@ -2980,7 +2959,7 @@
      var result = text.match(pattern); // one,one
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 157. ### What are regular expression patterns
 
@@ -3002,7 +2981,7 @@
         2. n\*: Used to find matches for any string that contains zero or more occurrences of n
         3. n?: Used to find matches for any string that contains zero or one occurrences of n
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 158. ### What is a RegExp object
 
@@ -3014,7 +2993,7 @@
      // expected output: /\w+/
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 159. ### How do you search a string for a pattern
 
@@ -3025,7 +3004,7 @@
      console.log(pattern.test("How are you?")); //true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 160. ### What is the purpose of exec method
 
@@ -3036,7 +3015,7 @@
      console.log(pattern.exec("How are you?")); //["you", index: 8, input: "How are you?", groups: undefined]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 161. ### How do you change the style of a HTML element
 
@@ -3054,13 +3033,13 @@
      document.getElementById("title").className = "custom-title";
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 162. ### What would be the result of 1+2+'3'
 
      The output is going to be `33`. Since `1` and `2` are numeric values, the result of the first two digits is going to be a numeric value `3`. The next digit is a string type value because of that the addition of numeric value `3` and string type value `3` is just going to be a concatenation value `33`.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 163. ### What is a debugger statement
 
@@ -3076,13 +3055,13 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 164. ### What is the purpose of breakpoints in debugging
 
      You can set breakpoints in the javascript code once the debugger statement is executed and the debugger window pops up. At each breakpoint, javascript will stop executing, and let you examine the JavaScript values. After examining values, you can resume the execution of code using the play button.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 165. ### Can I use reserved words as identifiers
 
@@ -3092,7 +3071,7 @@
      var else = "hello"; // Uncaught SyntaxError: Unexpected token else
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 166. ### How do you detect a mobile browser
 
@@ -3116,7 +3095,7 @@
      };
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 167. ### How do you detect a mobile browser without regexp
 
@@ -3140,7 +3119,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 168. ### How do you get the image width and height using JS
 
@@ -3154,7 +3133,7 @@
      img.src = "http://www.google.com/intl/en_ALL/images/logo.gif";
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 169. ### How do you make synchronous HTTP request
 
@@ -3169,7 +3148,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 170. ### How do you make asynchronous HTTP request
 
@@ -3187,7 +3166,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 171. ### How do you convert date to another timezone in javascript
 
@@ -3197,7 +3176,7 @@
      console.log(event.toLocaleString("en-GB", { timeZone: "UTC" })); //29/06/2019, 09:56:00
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 172. ### What are the properties used to get size of window
 
@@ -3215,7 +3194,7 @@
        document.body.clientHeight;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 173. ### What is a conditional operator in javascript
 
@@ -3228,7 +3207,7 @@
      ); //Sorry, you are not authenticated
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 174. ### Can you apply chaining on conditional operator
 
@@ -3260,7 +3239,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 175. ### What are the ways to execute javascript after page load
 
@@ -3284,7 +3263,7 @@
      <body onload="script();">
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 176. ### What is the difference between proto and prototype
 
@@ -3304,7 +3283,7 @@
      | ECMAScript | Introduced in ES6                                            | Introduced in ES5                                          |
      | Usage      | Frequently used                                              | Rarely used                                                |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 177. ### Give an example where do you really need semicolon
 
@@ -3336,7 +3315,7 @@
 
      In this case, we are passing the second function as an argument to the first function and then trying to call the result of the first function call as a function. Hence, the second function will fail with a "... is not a function" error at runtime.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 178. ### What is a freeze method
 
@@ -3370,7 +3349,7 @@
 
      **Note:** It causes a TypeError if the argument passed is not an object.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 179. ### What is the purpose of freeze method
 
@@ -3379,13 +3358,13 @@
      1. It is used for freezing objects and arrays.
      2. It is used to make an object immutable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 180. ### Why do I need to use freeze method
 
      In the Object-oriented paradigm, an existing API contains certain elements that are not intended to be extended, modified, or re-used outside of their current context. Hence it works as the `final` keyword which is used in various languages.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 181. ### How do you detect a browser language preference
 
@@ -3400,7 +3379,7 @@
      console.log(language);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 182. ### How to convert string to title case with javascript
 
@@ -3415,7 +3394,7 @@
      toTitleCase("good morning john"); // Good Morning John
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 183. ### How do you detect javascript disabled in the page
 
@@ -3430,7 +3409,7 @@
      </noscript>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 184. ### What are various operators supported by javascript
 
@@ -3443,7 +3422,7 @@
      5. **Ternary Operators:** It includes conditional(: ?) Operator
      6. **typeof Operator:** It uses to find type of variable. The syntax looks like `typeof variable`
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 185. ### What is a rest parameter
 
@@ -3474,7 +3453,7 @@
 
      **Note:** Rest parameter is added in ES2015 or ES6
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 186. ### What happens if you do not use rest parameter as a last argument
 
@@ -3487,7 +3466,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 187. ### What are the bitwise operators available in javascript
 
@@ -3501,7 +3480,7 @@
      6. Sign Propagating Right Shift ( >> )
      7. Zero fill Right Shift ( >>> )
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 188. ### What is a spread operator
 
@@ -3517,7 +3496,7 @@
      console.log(calculateSum(...numbers)); // 6
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 189. ### How do you determine whether object is frozen or not
 
@@ -3536,7 +3515,7 @@
      console.log(Object.isFrozen(object));
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 190. ### How do you determine two values same or not using object
 
@@ -3561,7 +3540,7 @@
         both NaN
         both non-zero and both not NaN and both have the same value.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 191. ### What is the purpose of using object is method
 
@@ -3572,7 +3551,7 @@
      3. It is used for comparing the polarity of two numbers.
      4. It is used for comparison of two objects.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 192. ### How do you copy properties from one object to other
 
@@ -3597,7 +3576,7 @@
 
      As observed in the above code, there is a common property(`b`) from source to target so it's value has been overwritten.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 193. ### What are the applications of assign method
 
@@ -3606,7 +3585,7 @@
      1. It is used for cloning an object.
      2. It is used to merge objects with the same properties.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 194. ### What is a proxy object
 
@@ -3635,7 +3614,7 @@
 
      In the above code, it uses `get` handler which define the behavior of the proxy when an operation is performed on it
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 195. ### What is the purpose of seal method
 
@@ -3652,7 +3631,7 @@
      console.log(object.property); //Welcome to object world
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 196. ### What are the applications of seal method
 
@@ -3661,13 +3640,13 @@
      1. It is used for sealing objects and arrays.
      2. It is used to make an object immutable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 197. ### What are the differences between freeze and seal methods
 
      If an object is frozen using the Object.freeze() method then its properties become immutable and no changes can be made in them whereas if an object is sealed using the Object.seal() method then the changes can be made in the existing properties of the object.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 198. ### How do you determine if an object is sealed or not
 
@@ -3688,7 +3667,7 @@
      console.log(Object.isSealed(object)); // checking whether the object is sealed or not
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 199. ### How do you get enumerable key and value pairs
 
@@ -3708,7 +3687,7 @@
 
      **Note:** The order is not guaranteed as object defined.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 200. ### What is the main difference between Object.values and Object.entries method
 
@@ -3726,7 +3705,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 201. ### How can you get the list of keys of any object
 
@@ -3742,7 +3721,7 @@
      console.log(Object.keys(user)); //['name', 'gender', 'age']
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 202. ### How do you create an object with prototype
 
@@ -3763,7 +3742,7 @@
      admin.printInfo(); // My name is Nick
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 203. ### What is a WeakSet
 
@@ -3784,7 +3763,7 @@
      ws.has(user); // false, user has been removed
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 204. ### What are the differences between WeakSet and Set
 
@@ -3796,7 +3775,7 @@
      3. WeakSet does not have methods such as clear, keys, values, entries, forEach.
      4. WeakSet is not iterable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 205. ### List down the collection of methods available on WeakSet
 
@@ -3819,7 +3798,7 @@
      weakSetObject.delete(secondObject);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 206. ### What is a WeakMap
 
@@ -3840,7 +3819,7 @@
      ws.has(user); // false, user has been removed
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 207. ### What are the differences between WeakMap and Map
 
@@ -3852,7 +3831,7 @@
      3. WeakMap does not have methods such as clear, keys, values, entries, forEach.
      4. WeakMap is not iterable.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 208. ### List down the collection of methods available on WeakMap
 
@@ -3876,7 +3855,7 @@
      weakMapObject.delete(secondObject);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 209. ### What is the purpose of uneval
 
@@ -3895,7 +3874,7 @@
      console.log(user.toString()); // returns "(function user(){})"
      ```  
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 210. ### How do you encode an URL
 
@@ -3907,7 +3886,7 @@
      console.log(encoded); // https://mozilla.org/?x=%D1%88%D0%B5%D0%BB%D0%BB%D1%8B
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 211. ### How do you decode an URL
 
@@ -3925,7 +3904,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 212. ### How do you print the contents of web page
 
@@ -3937,7 +3916,7 @@
 
      **Note:** In most browsers, it will block while the print dialog is open.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 213. ### What is the difference between uneval and eval
 
@@ -3951,7 +3930,7 @@
      greeting(); // returns "Hello, Good morning"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 214. ### What is an anonymous function
 
@@ -3981,7 +3960,7 @@
      console.log(z); // 50
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 215. ### What is the precedence order between local and global variables
 
@@ -3996,7 +3975,7 @@
      greeting();
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 216. ### What are javascript accessors
 
@@ -4019,7 +3998,7 @@
      console.log(user.lang); // setter used to set lang as fr
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 217. ### How do you define property on Object constructor
 
@@ -4038,13 +4017,13 @@
      newObject.newProperty = 200; // It throws an error in strict mode due to writable setting
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 218. ### What is the difference between get and defineProperty
 
      Both have similar results until unless you use classes. If you use `get` the property will be defined on the prototype of the object whereas using `Object.defineProperty()` the property will be defined on the instance it is applied to.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 219. ### What are the advantages of Getters and Setters
 
@@ -4056,7 +4035,7 @@
      4. They can provide better data quality
      5. Useful for doing things behind the scenes with the encapsulated logic.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 220. ### Can I add getters and setters using defineProperty method
 
@@ -4095,7 +4074,7 @@
      console.log(obj.decrement); //5
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 221. ### What is the purpose of switch-case
 
@@ -4122,7 +4101,7 @@
 
      The above multi-way branch statement provides an easy way to dispatch execution to different parts of code based on the value of the expression.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 222. ### What are the conventions to be followed for the usage of switch case
 
@@ -4134,7 +4113,7 @@
      4. The break statement is used inside the switch to terminate a statement sequence.
      5. The break statement is optional. But if it is omitted, the execution will continue on into the next case.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 223. ### What are primitive data types
 
@@ -4148,7 +4127,7 @@
      6. bigint
      7. symbol
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 224. ### What are the different ways to access object properties
 
@@ -4172,7 +4151,7 @@
      objectName[expression];
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 225. ### What are the function parameter rules
 
@@ -4190,7 +4169,7 @@
      functionName(1);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 226. ### What is an error object
 
@@ -4204,7 +4183,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 227. ### When you get a syntax error
 
@@ -4218,7 +4197,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 228. ### What are the different error names from error object
 
@@ -4232,7 +4211,7 @@
      | TypeError | An error due to a type error |
      | URIError | An error due to encodeURI() |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 229. ### What are the various statements in error handling
 
@@ -4243,26 +4222,26 @@
      3. **throw:** This statement is used to create custom errors.
      4. **finally:** This statement is used to execute code after try and catch regardless of the result.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 230. ### What are the two types of loops in javascript
 
      1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
      2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 231. ### What is nodejs
 
      Node.js is a server-side platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. It is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 232. ### What is an Intl object
 
      The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting. It provides access to several constructors and language sensitive functions.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 233. ### How do you perform language specific date and time formatting
 
@@ -4274,13 +4253,13 @@
      console.log(new Intl.DateTimeFormat("en-AU").format(date)); // 07/08/2019
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 234. ### What is an Iterator
 
      An iterator is an object which defines a sequence and a return value upon its termination. It implements the Iterator protocol with a `next()` method which returns an object with two properties: `value` (the next value in the sequence) and `done` (which is true if the last value in the sequence has been consumed).
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 235. ### How does synchronous iteration works
 
@@ -4301,7 +4280,7 @@
      console.log(iterator.next()); // { value: 'undefined, done: true }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 236. ### What is an event loop
 
@@ -4309,7 +4288,7 @@
 
      **Note:** The event loop allows Node.js to perform non-blocking I/O operations, even though JavaScript is single-threaded, by offloading operations to the system kernel whenever possible. Since most modern kernels are multi-threaded, they can handle multiple operations executing in the background.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 237. ### What is call stack
 
@@ -4341,7 +4320,7 @@
 
      ![Screenshot](images/call-stack.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 238. ### What is an event queue
 
@@ -4351,7 +4330,7 @@
 
      The event loop constantly checks whether or not the call stack is empty. Once the call stack is empty and there is a callback in the event queue, the event loop moves the callback into the call stack. But if there is a callback in the microtask queue as well, it is moved first. The microtask queue has a higher priority than the event queue.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 239. ### What is a decorator
 
@@ -4375,7 +4354,7 @@
       console.log(User.isAdmin); //false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 240. ### What are the properties of Intl object
 
@@ -4388,7 +4367,7 @@
      5. **PluralRules:** Objects that enable plural-sensitive formatting and language-specific rules for plurals.
      6. **RelativeTimeFormat:** Objects that enable language-sensitive relative time formatting.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 241. ### What is an Unary operator
 
@@ -4404,7 +4383,7 @@
      console.log(typeof a, typeof b, b); // string, number, NaN
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 242. ### How do you sort elements in an array
 
@@ -4416,7 +4395,7 @@
      console.log(months); //  ["Aug", "Jan", "June", "Sep"]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 243. ### What is the purpose of compareFunction while sorting arrays
 
@@ -4428,7 +4407,7 @@
      console.log(numbers); // [5, 4, 3, 2, 1]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 244. ### How do you reversing an array
 
@@ -4441,7 +4420,7 @@
      console.log(numbers); // [1, 2, 3, 4 ,5]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 245. ### How do you find min and max value in an array
 
@@ -4460,7 +4439,7 @@
      console.log(findMax(marks));
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 246. ### How do you find min and max values without Math functions
 
@@ -4494,7 +4473,7 @@
      console.log(findMax(marks));
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 247. ### What is an empty statement and purpose of it
 
@@ -4505,7 +4484,7 @@
      for (let i = 0; i < a.length; a[i++] = 0);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 248. ### How do you get metadata of a module
 
@@ -4516,7 +4495,7 @@
      console.log(import.meta); // { url: "file:///home/user/welcome-module.js" }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 249. ### What is a comma operator
 
@@ -4529,7 +4508,7 @@
      console.log(x); // 2
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 250. ### What is the advantage of a comma operator
 
@@ -4548,7 +4527,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 251. ### What is typescript
 
@@ -4572,7 +4551,7 @@
 
      The greeting method allows only string type as argument.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 252. ### What are the differences between javascript and typescript
 
@@ -4586,7 +4565,7 @@
      | Interface           | It has interfaces concept             | Doesn't support interfaces                      |
      | Optional parameters | Functions support optional parameters | No support of optional parameters for functions |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 253. ### What are the advantages of typescript over javascript
 
@@ -4596,7 +4575,7 @@
      2. TypeScript is strongly-typed or supports static typing which allows for checking type correctness at compile time. This is not available in javascript.
      3. TypeScript compiler can compile the .ts files into ES3,ES4 and ES5 unlike ES6 features of javascript which may not be supported in some browsers.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 254. ### What is an object initializer
 
@@ -4608,7 +4587,7 @@
      console.log(initObject.a); // John
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 255. ### What is a constructor method
 
@@ -4626,7 +4605,7 @@
      console.log(employeeObject.name); // John
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 256. ### What happens if you write constructor more than once in a class
 
@@ -4647,7 +4626,7 @@
       console.log(employeeObject.name);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 257. ### How do you call the constructor of a parent class
 
@@ -4670,7 +4649,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 258. ### How do you get the prototype of an object
 
@@ -4683,7 +4662,7 @@
      console.log(Object.getPrototypeOf(newObject) === newPrototype); // true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 259. ### What happens If I pass string type for getPrototype method
 
@@ -4696,7 +4675,7 @@
      Object.getPrototypeOf("James"); // String.prototype
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 260. ### How do you set prototype of one object to another
 
@@ -4707,7 +4686,7 @@
      Object.setPrototypeOf({}, null);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 261. ### How do you check whether an object can be extendable or not
 
@@ -4720,7 +4699,7 @@
 
      **Note:** By default, all the objects are extendable. i.e, The new properties can be added or modified.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 262. ### How do you prevent an object to extend
 
@@ -4740,7 +4719,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 263. ### What are the different ways to make an object non-extensible
 
@@ -4763,7 +4742,7 @@
      Object.isExtensible(frozenObject); // false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 264. ### How do you define multiple properties on an object
 
@@ -4781,13 +4760,13 @@
      });
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 265. ### What is MEAN in javascript
 
      The MEAN (MongoDB, Express, AngularJS, and Node.js) stack is the most popular open-source JavaScript software tech stack available for building dynamic web apps where you can write both the server-side and client-side halves of the web project entirely in JavaScript.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 266. ### What Is Obfuscation in javascript
 
@@ -4839,7 +4818,7 @@
      );
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 267. ### Why do you need Obfuscation
 
@@ -4850,13 +4829,13 @@
      3. Reverse engineering is highly difficult
      4. The download time will be reduced
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 268. ### What is Minification
 
      Minification is the process of removing all unnecessary characters(empty spaces are removed) and variables will be renamed without changing it's functionality. It is also a type of obfuscation .
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 269. ### What are the advantages of minification
 
@@ -4865,7 +4844,7 @@
      1. Decreases loading times of a web page
      2. Saves bandwidth usages
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 270. ### What are the differences between Obfuscation and Encryption
 
@@ -4877,7 +4856,7 @@
      | A key to decode    | It can be decoded without any key               | It is required                                                          |
      | Target data format | It will be converted to a complex form          | Converted into an unreadable format                                     |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 271. ### What are the common tools used for minification
 
@@ -4889,7 +4868,7 @@
      4. javascript-minifier.com/
      5. prettydiff.com
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 272. ### How do you perform form validation using javascript
 
@@ -4915,7 +4894,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 273. ### How do you perform form validation without javascript
 
@@ -4930,7 +4909,7 @@
 
      **Note:** Automatic form validation does not work in Internet Explorer 9 or earlier.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 274. ### What are the DOM methods available for constraint validation
 
@@ -4953,7 +4932,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 275. ### What are the available constraint validation DOM properties
 
@@ -4963,7 +4942,7 @@
      2. validationMessage: It displays the message when the validity is false.
      3. willValidate: It indicates if an input element will be validated or not.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 276. ### What are the list of validity properties
 
@@ -4979,7 +4958,7 @@
      8. valueMissing: It returns true, if an element with a required attribute has no value.
      9. valid: It returns true, if an element's value is valid.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 277. ### Give an example usage of rangeOverflow property
 
@@ -4998,7 +4977,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 278. ### Is enums feature available in javascript
 
@@ -5008,7 +4987,7 @@
      var DaysEnum = Object.freeze({"monday":1, "tuesday":2, "wednesday":3, ...})
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 279. ### What is an enum
 
@@ -5020,7 +4999,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 280. ### How do you list all properties of an object
 
@@ -5037,7 +5016,7 @@
      ["a", "b", "c"];
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 281. ### How do you get property descriptors of an object
 
@@ -5056,7 +5035,7 @@
      console.log(descriptorsObject.a.value); // 1
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 282. ### What are the attributes provided by a property descriptor
 
@@ -5069,7 +5048,7 @@
      5. set: A function which serves as a setter for the property
      6. get: A function which serves as a getter for the property
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 283. ### How do you extend classes
 
@@ -5098,7 +5077,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 284. ### How do I modify the url without reloading the page
 
@@ -5108,7 +5087,7 @@
      window.history.pushState("page2", "Title", "/page2.html");
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 285. ### How do you check whether an array includes a particular value or not
 
@@ -5122,7 +5101,7 @@
      console.log(stringArray.includes("blue")); //true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 286. ### How do you compare scalar arrays
 
@@ -5148,7 +5127,7 @@
      ); //true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 287. ### How to get the value from get parameters
 
@@ -5161,7 +5140,7 @@
      console.log(parameterZ); // 3
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 288. ### How do you print numbers with commas as thousand separators
 
@@ -5175,7 +5154,7 @@
      console.log(convertToThousandFormat(12345.6789));
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 289. ### What is the difference between java and javascript
 
@@ -5188,7 +5167,7 @@
      | Concurrency | Thread based | event based |
      | Memory | Uses more memory | Uses less memory. Hence it will be used for web pages |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 290. ### Does JavaScript supports namespace
 
@@ -5206,7 +5185,7 @@
 
      It always calls the second function definition. In this case, namespace will solve the name collision problem.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 291. ### How do you declare namespace
 
@@ -5267,7 +5246,7 @@
      //myFunction(): ReferenceError: myFunction is not defined.
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 292. ### How do you invoke javascript code in an iframe from parent page
 
@@ -5278,7 +5257,7 @@
      window.frames[0].frameElement.contentWindow.targetFunction(); // Accessing iframe this way may not work in latest versions chrome and firefox
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 293. ### How do get the timezone offset from date
 
@@ -5289,7 +5268,7 @@
      console.log(offset); // -480
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 294. ### How do you load CSS and JS files dynamically
 
@@ -5314,7 +5293,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 295. ### What are the different methods to find HTML elements in DOM
 
@@ -5324,7 +5303,7 @@
      2. document.getElementsByTagName(name): It finds an element by tag name
      3. document.getElementsByClassName(name): It finds an element by class name
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 296. ### What is jQuery
 
@@ -5339,14 +5318,14 @@
 
      **Note:** You can download it from jquery's official site or install it from CDNs, like google.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 297. ### What is V8 JavaScript engine
 
      V8 is an open source high-performance JavaScript engine used by the Google Chrome browser, written in C++. It is also being used in the node.js project. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors.
      **Note:** It can run standalone, or can be embedded into any C++ application.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 298. ### Why do we call javascript as dynamic language
 
@@ -5358,7 +5337,7 @@
      age = true; // age is a boolean
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 299. ### What is a void operator
 
@@ -5379,7 +5358,7 @@
 
      **Note:** This operator is often used to obtain the undefined primitive value, using "void(0)".
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 300. ### How to set the cursor to wait
 
@@ -5397,7 +5376,7 @@
      <body onload="myFunction()"></body>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 301. ### How do you create an infinite loop
 
@@ -5408,7 +5387,7 @@
      while (true) {}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 302. ### Why do you need to avoid with statement
 
@@ -5430,7 +5409,7 @@
 
      But this `with` statement creates performance problems since one cannot predict whether an argument will refer to a real variable or to a property inside the with argument.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 303. ### What is the output of below for loops
 
@@ -5452,7 +5431,7 @@
 
      Whereas in the second loop, the variable i is declared as the `let` keyword it becomes a block scoped variable and it holds a new value(0, 1 ,2 3) for each iteration. Hence, the output of the first loop is `0 1 2 3`.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 304. ### List down some of the features of ES6
 
@@ -5471,13 +5450,13 @@
      11. Classes
      12. Modules
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 305. ### What is ES6
 
      ES6 is the sixth edition of the javascript language and it was released in June 2015. It was initially known as ECMAScript 6 (ES6) and later renamed to ECMAScript 2015. Almost all the modern browsers support ES6 but for the old browsers there are many transpilers, like Babel.js etc.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 306. ### Can I redeclare let and const variables
 
@@ -5514,7 +5493,7 @@
      alert(name);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 307. ### Is const variable makes the value immutable
 
@@ -5526,7 +5505,7 @@
      console.log(userList); // ['John']
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 308. ### What are default parameters
 
@@ -5554,7 +5533,7 @@
      console.log(calculateArea()); //300
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 309. ### What are template literals
 
@@ -5573,7 +5552,7 @@
 
      **Note:** You can use multi-line strings and string interpolation features with template literals.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 310. ### How do you write multi-line strings in template literals
 
@@ -5590,7 +5569,7 @@
      'This is string sentence 2`);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 311. ### What are nesting templates
 
@@ -5617,7 +5596,7 @@
      }`;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 312. ### What are tagged templates
 
@@ -5656,7 +5635,7 @@
      console.log(output2); // Mr/Ms. Kane is a/an junior developer in JavaScript
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 313. ### What are raw strings
 
@@ -5686,7 +5665,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 314. ### What is destructuring assignment
 
@@ -5710,7 +5689,7 @@
      console.log(age); // 32
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 315. ### What are default values in destructuring assignment
 
@@ -5737,7 +5716,7 @@
      console.log(z); // 6
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 316. ### How do you swap variables in destructuring assignment
 
@@ -5752,7 +5731,7 @@
      console.log(y); // 10
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 317. ### What are enhanced object literals
 
@@ -5771,7 +5750,7 @@
      console.log(obj); // {x: 10, y:20}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 318. ### What are dynamic imports
 
@@ -5782,7 +5761,7 @@
      import("./Module").then((Module) => Module.method());
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 319. ### What are the use cases for dynamic imports
 
@@ -5805,7 +5784,7 @@
 
      1. Import a module from within a regular script instead a module.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 320. ### What are typed arrays
 
@@ -5829,7 +5808,7 @@
      const a = new Int8Array(bytes);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 321. ### What are the advantages of module loaders
 
@@ -5841,7 +5820,7 @@
      4. Compilation hooks
      5. Nested virtualization
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 322. ### What is collation
 
@@ -5867,7 +5846,7 @@
      console.log(list.sort(l10nSV.compare)); // [ "a", "z", "ä" ]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 323. ### What is for...of statement
 
@@ -5882,7 +5861,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 324. ### What is the output of below spread operator array
 
@@ -5893,13 +5872,13 @@
      The output of the array is ['J', 'o', 'h', 'n', '', 'R', 'e', 's', 'i', 'g']
      **Explanation:** The string is an iterable type and the spread operator within an array maps every character of an iterable to one element. Hence, each character of a string becomes an element within an Array.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 325. ### Is PostMessage secure
 
      Yes, postMessages can be considered very secure as long as the programmer/developer is careful about checking the origin and source of an arriving message. But if you try to send/receive a message without verifying its source will create cross-site scripting attacks.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 326. ### What are the problems with postmessage target origin as wildcard
 
@@ -5909,7 +5888,7 @@
      targetWindow.postMessage(message, "*");
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 327. ### How do you avoid receiving postMessages from attackers
 
@@ -5924,38 +5903,38 @@
      });
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 328. ### Can I avoid using postMessages completely
 
      You cannot avoid using postMessages completely(or 100%). Even though your application doesn’t use postMessage considering the risks, a lot of third party scripts use postMessage to communicate with the third party service. So your application might be using postMessage without your knowledge.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 329. ### Is postMessages synchronous
 
      The postMessages are synchronous in IE8 browser but they are asynchronous in IE9 and all other modern browsers (i.e, IE9+, Firefox, Chrome, Safari).Due to this asynchronous behaviour, we use a callback mechanism when the postMessage is returned.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 330. ### What paradigm is Javascript
 
      JavaScript is a multi-paradigm language, supporting imperative/procedural programming, Object-Oriented Programming and functional programming. JavaScript supports Object-Oriented Programming with prototypical inheritance.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 331. ### What is the difference between internal and external javascript
 
      **Internal JavaScript:** It is the source code within the script tag.
      **External JavaScript:** The source code is stored in an external file(stored with .js extension) and referred with in the tag.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 332. ### Is JavaScript faster than server side script
 
      Yes, JavaScript is faster than server side scripts. Because JavaScript is a client-side script it does not require any web server’s help for its computation or calculation. So JavaScript is always faster than any server-side script like ASP, PHP, etc.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 333. ### How do you get the status of a checkbox
 
@@ -5970,13 +5949,13 @@
      console.log(document.getElementById(‘checkboxname’).checked); // true or false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 334. ### What is the purpose of double tilde operator
 
      The double tilde operator(~~) is known as double NOT bitwise operator. This operator is a slightly quicker substitute for Math.floor().
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 335. ### How do you convert character to ASCII code
 
@@ -5992,7 +5971,7 @@
      String.fromCharCode(65, 66, 67); // returns 'ABC'
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 336. ### What is ArrayBuffer
 
@@ -6010,7 +5989,7 @@
      let view = new DataView(buffer);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 337. ### What is the output of below string expression
 
@@ -6021,7 +6000,7 @@
      The output of the above expression is "W".
      **Explanation:** The bracket notation with specific index on a string returns the character at a specific location. Hence, it returns the character "W" of the string. Since this is not supported in IE7 and below versions, you may need to use the .charAt() method to get the desired result.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 338. ### What is the purpose of Error object
 
@@ -6042,7 +6021,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 339. ### What is the purpose of EvalError object
 
@@ -6061,7 +6040,7 @@
        console.log(e.message, e.name, e.fileName);              // "Eval function error", "EvalError", "someFile.js"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 340. ### What are the list of cases error thrown from non-strict mode to strict mode
 
@@ -6087,13 +6066,13 @@
 
      Hence, the errors from above cases are helpful to avoid errors in development/production environments.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 341. ### Do all objects have prototypes
 
      No. All objects have prototypes except for the base object which is created by the user, or an object that is created using the new keyword.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 342. ### What is the difference between a parameter and an argument
 
@@ -6108,7 +6087,7 @@
      myFunction("argument1", "argument2", "argument3");
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 343. ### What is the purpose of some method in arrays
 
@@ -6122,7 +6101,7 @@
      console.log(array.some(odd)); // true (the odd element exists)
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 344. ### How do you combine two or more arrays
 
@@ -6141,7 +6120,7 @@
      console.log(veggiesAndFruits); // Tomato, Carrot, Cabbage, Apple, Orange, Pears
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 345. ### What is the difference between Shallow and Deep copy
 
@@ -6199,7 +6178,7 @@
 
      Now if you change `empDetailsDeepCopy.name`, it will only affect `empDetailsDeepCopy` & not `empDetails`
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 346. ### How do you create specific number of copies of a string
 
@@ -6225,7 +6204,7 @@
      console.log(greetingList[2]); //Hello3
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 348. ### How do you trim a string at the beginning or ending
 
@@ -6242,7 +6221,7 @@
      console.log(greeting.trimRight()); // "   Hello, Goodmorning!"
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 349. ### What is the output of below console statement with unary operator
 
@@ -6254,7 +6233,7 @@
 
      The output of the above console log statement returns NaN. Because the element is prefixed by the unary operator and the JavaScript interpreter will try to convert that element into a number type. Since the conversion fails, the value of the statement results in NaN value.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 350. ### Does javascript uses mixins
 
@@ -6289,7 +6268,7 @@
      new User("Dude").cleanRoom(); // Hello Dude, your room is clean now!
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 351. ### What is a thunk function
 
@@ -6303,7 +6282,7 @@
      thunk(); // 5
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 352. ### What are asynchronous thunks
 
@@ -6327,7 +6306,7 @@
 
      The `getData` function won't be called immediately but it will be invoked only when the data is available from API endpoint. The setTimeout function is also used to make our code asynchronous. The best real time example is redux state management library which uses the asynchronous thunks to delay the actions to dispatch.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 353. ### What is the output of below function calls
 
@@ -6352,7 +6331,7 @@
 
      The output is 40 and NaN. Remember that diameter is a regular function, whereas the value of perimeter is an arrow function. The `this` keyword of a regular function(i.e, diameter) refers to the surrounding scope which is a class(i.e, Shape object). Whereas this keyword of perimeter function refers to the surrounding scope which is a window object. Since there is no radius property on window objects it returns an undefined value and the multiple of number value returns NaN value.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 354. ### How to remove all line breaks from a string
 
@@ -6366,13 +6345,13 @@
 
      In the above expression, g and m are for global and multiline flags.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 355. ### What is the difference between reflow and repaint
 
      A _repaint_ occurs when changes are made which affect the visibility of an element, but not its layout. Examples of this include outline, visibility, or background color. A _reflow_ involves changes that affect the layout of a portion of the page (or the whole page). Resizing the browser window, changing the font, content changing (such as user typing text), using JavaScript methods involving computed styles, adding or removing elements from the DOM, and changing an element's classes are a few of the things that can trigger reflow. Reflow of an element causes the subsequent reflow of all child and ancestor elements as well as any elements following it in the DOM.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 356. ### What happens with negating an array
 
@@ -6382,7 +6361,7 @@
      console.log(![]); // false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 357. ### What happens if we add two arrays
 
@@ -6394,7 +6373,7 @@
      console.log(![] + []); // "false", because ![] returns false.
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 358. ### What is the output of prepend additive operator on falsy values
 
@@ -6408,7 +6387,7 @@
      console.log(+""); // 0
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 359. ### How do you create self string using special characters
 
@@ -6440,7 +6419,7 @@
      (![]+[])[+!+[]+!+[]+!+[]]+(![]+[])[+!+[]+!+[]+!+[]+!+[]]+(![]+[])[+!+[]+!+[]]+(![]+[])[+[]]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 360. ### How do you remove falsy values from an array
 
@@ -6451,7 +6430,7 @@
      myArray.filter(Boolean); // [1, 5] // is same as myArray.filter(x => x);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 361. ### How do you get unique values of an array
 
@@ -6461,7 +6440,7 @@
      console.log([...new Set([1, 2, 4, 4, 3])]); // [1, 2, 4, 3]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 362. ### What is destructuring aliases
 
@@ -6473,7 +6452,7 @@
      const { x: otherName } = obj;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 363. ### How do you map the array values without using map method
 
@@ -6493,7 +6472,7 @@
      console.log(cityNames); // ['Delhi, 'Washington', 'Moscow', 'Singapore', 'Beijing', 'Paris']
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 364. ### How do you empty an array
 
@@ -6504,7 +6483,7 @@
      cities.length = 0; // cities becomes []
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 365. ### How do you rounding numbers to certain decimals
 
@@ -6515,7 +6494,7 @@
      pie = pie.toFixed(3); // 3.142
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 366. ### What is the easiest way to convert an array to an object
 
@@ -6527,7 +6506,7 @@
      console.log(fruitsObject); // {0: "banana", 1: "apple", 2: "orange", 3: "watermelon"}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 367. ### How do you create an array with some data
 
@@ -6538,7 +6517,7 @@
      console.log(newArray); // ["0", "0", "0", "0", "0"]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 368. ### What are the placeholders from console object
 
@@ -6558,7 +6537,7 @@
      ); // Hello John, your details {name: "John", id: 1, city: "Delhi"} are available in object
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 369. ### Is it possible to add CSS to console messages
 
@@ -6576,7 +6555,7 @@
 
      **Note:** All CSS styles can be applied to console messages.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 370. ### What is the purpose of dir method of console object
 
@@ -6590,7 +6569,7 @@
      The user object displayed in JSON representation
      ![Screenshot](images/console-dir.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 371. ### Is it possible to debug HTML elements in console
 
@@ -6605,7 +6584,7 @@
 
      ![Screenshot](images/console-html.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 372. ### How do you display data in a tabular format using console object
 
@@ -6625,7 +6604,7 @@
      ![Screenshot](images/console-table.png)
      **Not:** Remember that `console.table()` is not supported in IE.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 373. ### How do you verify that an argument is a Number or not
 
@@ -6637,7 +6616,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 374. ### How do you create copy to clipboard button
 
@@ -6652,7 +6631,7 @@
      };
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 375. ### What is the shortcut to get timestamp
 
@@ -6663,7 +6642,7 @@
      console.log(Date.now());
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 376. ### How do you flattening multi dimensional arrays
 
@@ -6700,7 +6679,7 @@
      const fullyFlatArray = multiDimensionalArr.flat(Infinity); // [11, 22, 33, 44, 55, 66, 77, 88, 99]
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 377. ### What is the easiest multi condition checking
 
@@ -6722,7 +6701,7 @@
      }
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 378. ### How do you capture browser back button
 
@@ -6753,7 +6732,7 @@
 
     In the preceeding code, When the box element clicked, its background color appears in blue color and changed to while color upon clicking the browser back button using `popstate` event handler. The `state` property of `popstate` contains the copy of history entry's state object.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 379. ### How do you disable right click in the web page
 
@@ -6763,7 +6742,7 @@
      <body oncontextmenu="return false;"></body>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 380. ### What are wrapper objects
 
@@ -6777,13 +6756,13 @@
 
      i.e, Every primitive except null and undefined have Wrapper Objects and the list of wrapper objects are String,Number,Boolean,Symbol and BigInt.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 381. ### What is AJAX
 
      AJAX stands for Asynchronous JavaScript and XML and it is a group of related technologies(HTML, CSS, JavaScript, XMLHttpRequest API etc) used to display data asynchronously. i.e. We can send data to the server and get data from the server without reloading the web page.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 382. ### What are the different ways to deal with Asynchronous Code
 
@@ -6794,7 +6773,7 @@
      3. Async/await
      4. Third-party libraries such as async.js,bluebird etc
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 383. ### How to cancel a fetch request
 
@@ -6834,7 +6813,7 @@
      setTimeout(() => controller.abort(), 2000);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 384. ### What is web speech API
 
@@ -6871,7 +6850,7 @@
      The above examples can be tested on chrome(33+) browser's developer console.
      **Note:** This API is still a working draft and only available in Chrome and Firefox browsers(ofcourse Chrome only implemented the specification)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 385. ### What is minimum timeout throttling
 
@@ -6913,13 +6892,13 @@
      Script loaded
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 386. ### How do you implement zero timeout in modern browsers
 
      You can't use setTimeout(fn, 0) to execute the code immediately due to minimum delay of greater than 0ms. But you can use window.postMessage() to achieve this behavior.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 387. ### What are tasks in event loop
 
@@ -6930,7 +6909,7 @@
      2. When an event fires, the event callback added to task queue
      3. When a setTimeout or setInterval is reached, the corresponding callback added to task queue
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 388. ### What is microtask
 
@@ -6938,7 +6917,7 @@
      The main sources of microtasks are Promise.resolve, Promise.reject, MutationObservers, IntersectionObservers etc
 
      **Note:** All of these microtasks are processed in the same turn of the event loop.
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 389. ### What are different event loops
 
@@ -6952,7 +6931,7 @@
 
     - The Node.js Event Loop is used in server-side JavaScript applications and is responsible for handling events that occur within the Node.js runtime environment, such as file I/O, network I/O, and other asynchronous actions.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 390. ### What is the purpose of queueMicrotask
 
@@ -6972,7 +6951,7 @@
 
      By using queueMicrotask, you can ensure that certain tasks or callbacks are executed at the earliest opportunity during the JavaScript event loop, making it useful for performing work that needs to be done asynchronously but with higher priority than regular `setTimeout` or `setInterval` callbacks.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 391. ### How do you use javascript libraries in typescript file
 
@@ -6988,7 +6967,7 @@
      var customLibrary: any;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 392. ### What are the differences between promises and observables
 
@@ -7002,7 +6981,7 @@
      | Doesn't provide any operators                                      | Provides operators such as map, forEach, filter, reduce, retry, and retryWhen etc        |
      | Cannot be canceled                                                 | Canceled by using unsubscribe() method                                                   |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 393. ### What is heap
 
@@ -7011,7 +6990,7 @@
 
      ![Screenshot](images/heap.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 394. ### What is an event table
 
@@ -7020,14 +6999,14 @@
 
      ![Screenshot](images/event-table.png)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 395. ### What is a microTask queue
 
      Microtask Queue is the new queue where all the tasks initiated by promise objects get processed before the callback queue.
      The microtasks queue are processed before the next rendering and painting jobs. But if these microtasks are running for a long time then it leads to visual degradation.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 396. ### What is the difference between shim and polyfill
 
@@ -7035,7 +7014,7 @@
      Whereas polyfill is a piece of code (or plugin) that provides the technology that you, the developer, expect the browser to provide natively.
      In a simple sentence, A polyfill is a shim for a browser API.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 397. ### How do you detect primitive or non primitive value type
 
@@ -7054,7 +7033,7 @@
 
      If the value is a primitive data type, the Object constructor creates a new wrapper object for the value. But If the value is a non-primitive data type (an object), the Object constructor will give the same object.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 398. ### What is babel
 
@@ -7064,25 +7043,25 @@
      2. Polyfill features that are missing in your target environment (using @babel/polyfill)
      3. Source code transformations (or codemods)
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 399. ### Is Node.js completely single threaded
 
      Node is a single thread, but some of the functions included in the Node.js standard library(e.g, fs module functions) are not single threaded. i.e, Their logic runs outside of the Node.js single thread to improve the speed and performance of a program.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 400. ### What are the common use cases of observables
 
      Some of the most common use cases of observables are web sockets with push notifications, user input changes, repeating intervals, etc
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 401. ### What is RxJS
 
      RxJS (Reactive Extensions for JavaScript) is a library for implementing reactive programming using observables that makes it easier to compose asynchronous or callback-based code. It also provides utility functions for creating and working with observables.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 402. ### What is the difference between Function constructor and function declaration
 
@@ -7114,7 +7093,7 @@
      console.log(createFunction()()); // 200
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 403. ### What is a Short circuit condition
 
@@ -7132,7 +7111,7 @@
      authenticate && loginToPorta();
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 404. ### What is the easiest way to resize an array
 
@@ -7156,7 +7135,7 @@
      console.log(array); // []
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 405. ### What is an observable
 
@@ -7179,7 +7158,7 @@
 
      **Note:** Observables are not part of the JavaScript language yet but they are being proposed to be added to the language
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 406. ### What is the difference between function and class declarations
 
@@ -7201,7 +7180,7 @@
      function User() {}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 407. ### What is an async function
 
@@ -7219,7 +7198,7 @@
 
      It is basically syntax sugar over ES2015 promises and generators.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 408. ### How do you prevent promises swallowing errors
 
@@ -7302,13 +7281,13 @@
         Promise.reject("error value").catch(function () {});
         ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 409. ### What is deno
 
      Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 JavaScript engine and the Rust programming language.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 410. ### How do you make an object iterable in javascript
 
@@ -7363,7 +7342,7 @@
      console.log(iterator.next()); // {value: undefined, done: true}
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 411. ### What is a Proper Tail Call
 
@@ -7395,7 +7374,7 @@
 
      The above pattern returns the same output as the first one. But the accumulator keeps track of total as an argument without using stack memory on recursive calls.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 412. ### How do you check an object is a promise or not
 
@@ -7434,7 +7413,7 @@
      console.log(isPromise(promise)); // true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 413. ### How to detect if a function is called as constructor
 
@@ -7457,7 +7436,7 @@
      Myfunc.call({}); // not called with new
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 414. ### What are the differences between arguments object and rest parameter
 
@@ -7467,13 +7446,13 @@
      2. The arguments object does not support methods such as sort, map, forEach, or pop. Whereas these methods can be used in rest parameters.
      3. The rest parameters are only the ones that haven’t been given a separate name, while the arguments object contains all arguments passed to the function
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 415. ### What are the differences between spread operator and rest parameter
 
      Rest parameter collects all remaining elements into an array. Whereas Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements. i.e, Rest parameter is opposite to the spread operator.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 416. ### What are the different kinds of generators
 
@@ -7542,7 +7521,7 @@
         console.log(Array.from(SomeObj)); // [ 1, 2, 3 ]
         ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 417. ### What are the built-in iterables
 
@@ -7555,7 +7534,7 @@
      5. arguments: An array-like special variable in functions
      6. DOM collection such as NodeList
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 418. ### What are the differences between for...of and for...in statements
 
@@ -7584,7 +7563,7 @@
 
      Since for..in loop iterates over the keys of the object, the first loop logs 0, 1, 2 and newProp while iterating over the array object. The for..of loop iterates over the values of a arr data structure and logs a, b, c in the console.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 419. ### How do you define instance and non-instance properties
 
@@ -7606,7 +7585,7 @@
      Person.prototype.prototypeAge = 40;
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 420. ### What is the difference between isNaN and Number.isNaN?
 
@@ -7620,7 +7599,7 @@
      Number.isNaN('hello'); // false
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 421. ### How to invoke an IIFE without any extra brackets?
 
@@ -7640,7 +7619,7 @@
      })(new Date());
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 422. ### Is that possible to use expressions in switch cases?
 
@@ -7661,7 +7640,7 @@
      })(10);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 423. ### What is the easiest way to ignore promise errors?
 
@@ -7671,7 +7650,7 @@
      await promise.catch((e) => void e);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 424. ### How do style the console output using CSS?
 
@@ -7690,7 +7669,7 @@
      );
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 425. ### What is nullish coalescing operator (??)?
 
@@ -7702,7 +7681,7 @@
      console.log(undefined ?? true); // true
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 426. ### How do you group and nest console output?
 
@@ -7730,7 +7709,7 @@
 
      You can also use `console.groupCollapsed()` instead of `console.group()` if you want the groups to be collapsed by default.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 427. ### What is the difference between dense and sparse arrays?
 
@@ -7753,7 +7732,7 @@
      console.log(justiceLeague.length); // 4
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 428. ### What are the different ways to create sparse arrays?
 
@@ -7782,7 +7761,7 @@
         console.log(justiceLeague); // ['Superman', 'Aquaman', 'Batman', empty, empty]
         ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 429. ### What is the difference between setTimeout, setImmediate and process.nextTick?
 
@@ -7790,7 +7769,7 @@
      2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.
      3. **Process NextTick:** If process.nextTick() is called in a given phase, all the callbacks passed to process.nextTick() will be resolved before the event loop continues. This will block the event loop and create I/O Starvation if process.nextTick() is called recursively.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 430. ### How do you reverse an array without modifying original array?
 
@@ -7868,7 +7847,7 @@
         console.log(newArray); // [ 5, 4, 3, 2, 1]
         ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 431. ### How do you create custom HTML element?
 
@@ -7893,7 +7872,7 @@
         </body>
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 432. ### What is global execution context?
 
@@ -7919,13 +7898,13 @@
      console.log("GlobalContext");
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 433. ### What is function execution context?
 
      Whenever a function is invoked, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the Global Execution Context (GEC) to evaluate and execute the code within that function.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 434. ### What is debouncing?
 
@@ -7969,7 +7948,7 @@
      window.addEventListener("scroll", processChange);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 435. ### What is throttling?
 
@@ -7993,7 +7972,7 @@
      });
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 436. ### What is optional chaining?
 
@@ -8017,7 +7996,7 @@
      // expected output: undefined
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 437. ### What is an environment record?
 
@@ -8029,7 +8008,7 @@
 
      Each time such code is evaluated, a new Environment Record is created to record the identifier bindings that are created by that code.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 438. ### How to verify if a variable is an array?
 
@@ -8068,7 +8047,7 @@
         console.log(user.constructor === Array); // false
         ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 439. ### What is pass by value and pass by reference?
 
@@ -8099,7 +8078,7 @@
 
      In the above code snippet, updating the `age` property of one object will impact the other property due to the same reference.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 440. ### What are the differences between primitives and non-primitives?
 
@@ -8113,7 +8092,7 @@
      | Stored in Stack            | Stored in heap       |
      | Contain certain value      | Can contain NULL too |
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 441. ### How do you create your own bind method using either call or apply method?
 
@@ -8133,7 +8112,7 @@
      };
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 442. ### What are the differences between pure and impure functions?
 
@@ -8145,7 +8124,7 @@
 | It is always return the same result | It returns different result on each call                              |
 | Easy to read and debug              | Difficult to read and debug because they are affected by extenal code |
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 445. ### What is referential transparency?
 
@@ -8160,7 +8139,7 @@ const multiplyBy2 = (x) => x * 2;
 multiplyBy2(add(2, 3));
 ```
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 446. ### What are the possible side-effects in javascript?
 
@@ -8173,13 +8152,13 @@ multiplyBy2(add(2, 3));
 - Fetching the current time
 - Math.random() calls: Modifies the internal state of Math object
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 447. ### What are compose and pipe functions?
 
      The "compose" and "pipe" are two techniques commonly used in functional programming to simplify complex operations and make code more readable. They are not native to JavaScript and higher-order functions. the `compose()` applies right to left any number of functions to the output of the previous function.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 448. ### What is module pattern?
 
@@ -8224,7 +8203,7 @@ multiplyBy2(add(2, 3));
 
      **Note:** It mimic the concepts of classes with private variables and methods.
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 449. ### What is Function Composition?
 
@@ -8243,7 +8222,7 @@ multiplyBy2(add(2, 3));
      console.log(output_final);
      ```
 
-     **[⬆ Back to Top](#table-of-contents)**
+     
 
 450. ### How to use await outside of async function prior to ES2022?
 
@@ -8267,7 +8246,7 @@ multiplyBy2(add(2, 3));
      await Promise.resolve(console.log("Hello await")); //Hello await
      ```
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 451. ### What is the purpose of the this keyword in JavaScript?
 * The `this` keyword in JavaScript is a special variable that is used within a function to refer to the object on which the function is invoked. The value of this depends on how the function is called. It allows functions to access and interact with the object they are bound to.
@@ -8309,10 +8288,10 @@ document.getElementById('myButton').addEventListener('click', function() {
 ```
 *  In an event handler, this refers to the element that triggered the event (the button in this case).
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 452. ### What are the uses of closures?
-**[⬆ Back to Top](#table-of-contents)**
+
 
 ### Coding Exercise
 
@@ -8347,7 +8326,7 @@ The function declarations are hoisted similar to any variables. So the placement
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 2. What is the output of below code
 
@@ -8387,7 +8366,7 @@ Since the block scoped variable x is undefined outside of the function, the type
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 3. What is the output of below code
 
@@ -8428,7 +8407,7 @@ The statements order is based on the event loop mechanism. The order of statemen
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 4. What is the output of below equality check
 
@@ -8452,7 +8431,7 @@ You can find more details about the explanation here [0.30000000000000004.com/](
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 5. What is the output of below code
 
@@ -8496,7 +8475,7 @@ console.log(y);
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 6. What is the output of below code
 
@@ -8538,7 +8517,7 @@ console.log(foo()); // {message: "Hello World"}
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 7. What is the output of below code
 
@@ -8568,7 +8547,7 @@ If you try to print myChars then you can observe that it doesn't set an undefine
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 8. What is the output of below code in latest Chrome
 
@@ -8602,7 +8581,7 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 9. What is the output of below code
 
@@ -8641,7 +8620,7 @@ ES6 provides method definitions and property shorthands for objects. So both pro
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 10. What is the output of below code
 
@@ -8680,7 +8659,7 @@ Whereas the second statement follows the below order,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 11. What is the output of below code in non-strict mode
 
@@ -8711,7 +8690,7 @@ The value of the first parameter is mapped to the third argument which is passed
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 12. What is the output of below code
 
@@ -8739,7 +8718,7 @@ Unlike regular functions, the arrow functions doesn't not allow duplicate parame
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 13. What is the output of below code
 
@@ -8781,7 +8760,7 @@ console.log(arrowFunc(1, 2, 3));
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 14. What is the output of below code
 
@@ -8805,7 +8784,7 @@ In order to be consistent with functions like `String.prototype.padStart`, the s
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 15. What is the output of below code
 
@@ -8831,7 +8810,7 @@ console.log(Math.max());
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 16. What is the output of below code
 
@@ -8863,7 +8842,7 @@ So it doesn't matter about number brackets([]) around the number, it is always c
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 17. What is the output of below code
 
@@ -8889,7 +8868,7 @@ The concatenation operator(+) is applicable for both number and string types. So
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 18. What is the output of below code
 
@@ -8940,7 +8919,7 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 20. What is the output of below code
 
@@ -8969,7 +8948,7 @@ Since `Set` object is a collection of unique values, it won't allow duplicate va
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 21. What is the output of below code
 
@@ -8992,7 +8971,7 @@ JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equ
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 22. What is the output of below code
 
@@ -9026,7 +9005,7 @@ console.log(numbers.includes(NaN)); // true
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 23. What is the output of below code
 
@@ -9058,7 +9037,7 @@ console.log(a, b); // 1, [2, 3, 4, 5]
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 25. What is the output of below code
 
@@ -9092,7 +9071,7 @@ function func() {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 26. What is the output of below code
 
@@ -9126,7 +9105,7 @@ function func() {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 27. What is the output of below code
 
@@ -9167,7 +9146,7 @@ Even though “processArray” is an async function, the anonymous function that
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 28. What is the output of below code
 
@@ -9218,7 +9197,7 @@ async function processArray(array) {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 29. What is the output of below code
 
@@ -9248,7 +9227,7 @@ Set has few exceptions from equality check,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 30. What is the output of below code
 
@@ -9285,7 +9264,7 @@ Symbol follows below conventions,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 31. What is the output of below code
 
@@ -9312,7 +9291,7 @@ console.log(sym1);
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 32. What is the output of below code
 
@@ -9363,7 +9342,7 @@ if (typeof myNumber !== "string")
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 33. What is the output of below code
 
@@ -9397,7 +9376,7 @@ The symbols has below constraints,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 34. What is the output of below code
 
@@ -9434,7 +9413,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 35. What is the output of below code
 
@@ -9461,7 +9440,7 @@ It throws a syntax error because the rest element should not have a trailing com
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 36. What is the output of below code
 
@@ -9493,7 +9472,7 @@ The object property follows below rules,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 37. What is the output of below code
 
@@ -9545,7 +9524,7 @@ area();
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 38. What is the output of below code
 
@@ -9578,7 +9557,7 @@ It is possible to combine Array and Object destructuring. In this case, the thir
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 39. What is the output of below code
 
@@ -9616,7 +9595,7 @@ Hence, the result of function calls categorized as below,
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 40. What is the output of below code
 
@@ -9646,7 +9625,7 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 41. What is the output of below code
 
@@ -9675,7 +9654,7 @@ Since parameters defined earlier are available to later default parameters, this
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 42. What is the output of below code
 
@@ -9704,7 +9683,7 @@ The functions and variables declared in the function body cannot be referred fro
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 43. What is the output of below code
 
@@ -9735,7 +9714,7 @@ The rest parameter is used to hold the remaining parameters of a function and it
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 44. What is the output of below code
 
@@ -9763,7 +9742,7 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 45. What is the output of below code
 
@@ -9795,7 +9774,7 @@ Generators are not constructible type. But if you still proceed to do, there wil
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 46. What is the output of below code
 
@@ -9830,7 +9809,7 @@ A return statement in a generator function will make the generator finish. If a 
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 47. What is the output of below code
 
@@ -9868,7 +9847,7 @@ The generator should not be re-used once the iterator is closed. i.e, Upon exiti
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 48. What is the output of below code
 
@@ -9893,7 +9872,7 @@ If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScr
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 49. What is the output of below code
 
@@ -9934,7 +9913,7 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 50. What is the output of below code
 
@@ -9975,7 +9954,7 @@ When a regular or prototype method is called without a value for **this**, the m
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 51. What is the output of below code
 
@@ -10019,7 +9998,7 @@ The super keyword is used to call methods of a superclass. Unlike other language
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 52. What is the output of below code
 
@@ -10047,7 +10026,7 @@ Even though we used constant variables, the content of it is an object and the o
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 53. What is the output of below code
 
@@ -10071,7 +10050,7 @@ Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode c
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 54. What is the output of below code?
 
@@ -10097,7 +10076,7 @@ The typeof operator on any primitive returns a string value. So even if you appl
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 55. What is the output of below code?
 
@@ -10132,7 +10111,7 @@ Hence the above code block always goes to if section.
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 55. What is the output of below code in non strict mode?
 
@@ -10162,7 +10141,7 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 56. What is the output of below code?
 
@@ -10199,7 +10178,7 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 57. What is the output of below code ?
 
@@ -10228,7 +10207,7 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 58. What is the output of below code ?
 
@@ -10256,7 +10235,7 @@ Arrays have their own implementation of `toString` method that returns a comma-s
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 59. What is the output of below code?
 
@@ -10286,7 +10265,7 @@ Hoisting will move variables and functions to be the top of scope. Even though g
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 60. What is the output of below code?
 
@@ -10318,7 +10297,7 @@ Even though a promise is resolved immediately, it won't be executed immediately 
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 61. What is the output of below code?
 
@@ -10355,7 +10334,7 @@ Hence, there will be **cannot read properties of undefined** error while applyin
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 62. Write a function that returns a random HEX color
 
@@ -10424,7 +10403,7 @@ function generateRandomHex() {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 63. What is the output of below code?
 
@@ -10462,7 +10441,7 @@ for(var in in in) {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 64. What is the output of below code?
 
@@ -10498,7 +10477,7 @@ console.log(numbers);
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 65. What is the output order of below code?
 
@@ -10526,7 +10505,7 @@ When the JavaScript engine parses the above code, the first two statements are a
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 66. What is the output of below code?
 
@@ -10566,7 +10545,7 @@ var message = function () {
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 67. What is the output of below code?
 
@@ -10598,7 +10577,7 @@ As part of hoisting, initially JavaScript Engine or compiler will store first fu
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 68. What is the output of below code?
 
@@ -10631,7 +10610,7 @@ Due to hositing feature, the variables declared with `var` will have `undefined`
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 69. What is the output of below code in an order?
 
@@ -10669,7 +10648,7 @@ Each context(global or functional) has it's own variable environment and the cal
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 70. What is the output of below code?
 
@@ -10697,7 +10676,7 @@ The function call `functionOne` is not going to be part of scope chain and it ha
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 71. What is the output of below code?
 
@@ -10785,7 +10764,7 @@ user.eat()();
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 72. What is the output of below code?
 
@@ -10816,7 +10795,7 @@ In JavaScript, primitives are immutable i.e. there is no way to change a primiti
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 73. What is the output of below code?
 
@@ -10850,7 +10829,7 @@ In JavaScript, the variables such as objects, arrays and functions comes under p
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 74. What is the output of below code?
 
@@ -10881,7 +10860,7 @@ The variable `message` is still treated as closure(since it has been used in inn
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 75. What is the output of below code?
 
@@ -10906,7 +10885,7 @@ Eventhough both variables `a` and `b` refer a number value, the first declaratio
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 76. What is the type of below function?
 
@@ -10932,7 +10911,7 @@ Eventhough the above function returns the same result for the same arguments(inp
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 77. What is the output of below code?
 
@@ -10964,7 +10943,7 @@ Promise.allSettled([promiseOne, promiseTwo]).then((data) => console.log(data));
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 78. What is the output of below code?
 
@@ -11009,7 +10988,7 @@ You can use `.catch()` function in promises to avoid these issues with asynchron
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 79. What is the output of below code?
 
@@ -11039,7 +11018,7 @@ The variable "a" declared inside "if" has block scope and does not affect the va
 
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 80. What is the output of below code?
 
@@ -11065,7 +11044,7 @@ The length of the array 'arr' has been set to 0, so the array becomes empty.
 </details>
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 81. How do you verify two strings are anagrams?
 An anagram is a word or phrase formed by rearranging all the letters of a different word or phrase exactly once. For example, the anagrams of "eat" word are "tea" and "ate".
@@ -11079,7 +11058,7 @@ function verifyAnagrams(word1, word2) {
 console.log(verifyAnagrams("eat", "ate"));
 ```
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 #### 82. What is the output of below code?
 
@@ -11128,7 +11107,7 @@ function printHello() {
 </details>
 ---
 
-**[⬆ Back to Top](#table-of-contents)**
+
 
 ## Disclaimer
 
